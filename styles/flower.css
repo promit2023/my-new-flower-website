@@ -1,0 +1,185 @@
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+    background-image: url('../images-flowers/pngwing\ 10.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.first-section {
+    padding-left: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 100px;
+
+}
+
+.header-title {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: justify;
+}
+
+.header-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    width: 634px;
+}
+
+.button-primary {
+    display: inline-flex;
+    padding: 20px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+.text-primary {
+    color: #FFF;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* menu related styles */
+
+
+.menu-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 150px;
+}
+
+.menu-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding: 0px 500px 0px 500px;
+}
+
+.second-section {
+    background: #FFF;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.flowerLinks {
+    display: flex;
+    padding-top: 50px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.firstLink {
+    margin-right: 470;
+}
+
+.secondLink {
+    margin-right: 510px;
+}
+
+
+.bg1 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 30px;
+    background-image: url('../images-flowers/pngwing\ 6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+}
+
+.bg2 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-right: 30px;
+    background-image: url('../images-flowers/pngwing\ 5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg3 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    background-image: url('../images-flowers/pngwing\ 7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+}
+
+.p {
+    display: flex;
+}
+
+/* icon related styles */
+.third-section{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+   padding-top: 50px;
+   margin-top: 50px;
+   margin-left: 60px;
+   margin-right: 30px;
+}
+.iconSection {
+    
+    height: 120px;
+    margin-left: 58px;
+    margin-right: 23px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon1{
+   
+    background-image: url('../icons-flower/Group57.png');
+    height: 120px;
+    width: 150px;
+    background-repeat: no-repeat;
+}
+.icon2{
+    
+    background-image: url('../icons-flower/Group58.png');
+    height: 120px;
+    width: 150px;
+    background-repeat: no-repeat; 
+}
+.icon3{
+    
+    background-image: url('../icons-flower/Group59.png');
+    height: 120px;
+    width: 150px;
+    background-repeat: no-repeat; 
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
