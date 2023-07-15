@@ -139,47 +139,251 @@ header {
 }
 
 /* icon related styles */
-.third-section{
+.third-section {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-   padding-top: 50px;
-   margin-top: 50px;
-   margin-left: 60px;
-   margin-right: 30px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 30px;
 }
+
 .iconSection {
-    
+
     height: 120px;
     margin-left: 58px;
     margin-right: 23px;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.icon1{
-   
+
+.icon1 {
+
     background-image: url('../icons-flower/Group57.png');
     height: 120px;
     width: 150px;
     background-repeat: no-repeat;
 }
-.icon2{
-    
+
+.icon2 {
+
     background-image: url('../icons-flower/Group58.png');
     height: 120px;
     width: 150px;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
-.icon3{
-    
+
+.icon3 {
+
     background-image: url('../icons-flower/Group59.png');
     height: 120px;
     width: 150px;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
-.title{
+
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* 4th section related styles */
+
+.forth-section {
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    background-image: url('../images-flowers/pngwing\ 8.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    padding-left: 200px;
+}
+
+.frth-section-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    padding-top: 200px;
+
+
+}
+
+.frthtext-primary {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.frth-section-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+
+
+}
+
+/* fifth section related style */
+.ffth-section-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 50px;
+}
+
+.ffth-section-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.fivebg1 {
+    background-image: url('../images-flowers/Flower\ 01.png');
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+.fivebg2 {
+    background-image: url('../images-flowers/Rectangle\ 4.png');
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+.fivebg3 {
+    background-image: url('../images-flowers/Rectangle\ 5.png');
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+.fivebg4 {
+    background-image: url('../images-flowers/Rectangle\ 6.png');
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+
+.fivebgimgadd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sixth section related styles */
+.sixth-section {
+    background-image: url('../images-flowers/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 449px;
+    flex-shrink: 0;
+    align-items: center;
+    padding-top: 130px;
+    margin-top: 130px;
+    justify-items: center;
+    background-color: red;
+    background-size: cover; /* This will make the background image cover the whole background */
+
+    
+
+}
+
+.sixth-section-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.sixth-section-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    text-align: center;
+
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+.sixth-section-block{
+    
+    margin-left: 800px;
+}
+
+text {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.button-primarytext-primary {
+    align-items: center;
+}
+
+/* footer related styles */
+
+.last-section-title {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+    /* padding: 125px 830px 0px 830px; */
+}
+
+.Last-section {
+    background: #111010;
+    height: 449px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer-section-text {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.footer-end-line {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: normal;
 }
